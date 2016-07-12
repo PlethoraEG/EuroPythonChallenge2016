@@ -8,13 +8,20 @@ Data description:
 This dataset comprises real world machine data gathered from a machine tool working unload in an empty cycle. There is no material removal taking place, but the control instructions are sent to the controller to move each of the 3 axis servo-drive. From each servo-drive, RPM, power and temperature is taken. 
 Additionally, vibration is measured from each servo-drive where 5 fundamental amplitudes (acceleration) [axis::x-amp#) are measured at their corresponding frequency [axis::x-freq#].
 
-•	The dataset contains a collection of CSV files. 
+•	The dataset contains a collection of CSV files.
+
 •	There are three folders comprised: rpm_and_power, temperature and vibration
+
 •	Every folder contains data gathered during 5 days.
+
 •	Data was captured in real-time and synchronization of timestamps is not assured as different sensors were used.
+
 •	Alignment of data and possible errors in capturing are reflected in the datasets as no filtering was used in the generation of the datasets.
+
 •	Datasets are to be considered as raw as they possibly can be.
+
 •	Data healing, handling, mining alignment or visualization are a few of the ideas that potential contestants could focus in solving for participating in the contest.
+
 
 Requirements and conditions
 
@@ -32,12 +39,17 @@ Prizes
 Ikergune will select an international board of evaluators whose identities will remain in secret. The jurors will choose between the submissions one winner and a second and third place that will receive the following prizes:
 
 Winner:  Macbook Air 11” 
-Second prize: Ipad mini 
+
+Second prize: iPad mini 
+
 Third prize: Paid subscription to Europython 2017, only the attendance will be covered (no plane tickets, or hotel)
 
 •	The evaluation board decision will be final.
+
 •	There will be a minimum of 30 valid submissions for the challenge to be considered open, bellow that mark the organizers will declare the challenge deserted and hence no prizes will be given. 
+
 •	The winners will be contacted by the organization the 1St of December of 2016 and their names will be announced by the EuroPython organization through their social networks.
+
 
 Challenge goal
 The contestants are invited to participate with their scripts with their own original ideas. The organizers will provide the datasets with the intention of evaluating creativity, usefulness and good coding practices.
